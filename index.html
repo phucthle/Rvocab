@@ -12,8 +12,8 @@
 	<meta name="apple-mobile-web-app-status-bar-style" content="black">
     <title>Practice Test For The Final Exam</title>
     
-    <!-- [EDIT] Load dữ liệu từ file volca.js -->
-    <script src="volca.js"></script>
+    <!-- [EDIT] Load dữ liệu từ file vocab.js -->
+    <script src="vocab.js"></script>
 
     <style>
         /* --- CSS GỐC CỦA ĐẠI CA (GIỮ NGUYÊN) --- */
@@ -497,7 +497,7 @@
         }
 
         window.onload = function() {
-            // [EDIT] Kiểm tra biến COURSE_DATA từ file volca.js
+            // [EDIT] Kiểm tra biến COURSE_DATA từ file vocab.js
             if (typeof window.COURSE_DATA !== 'undefined' && window.COURSE_DATA) {
                 vocabulary = parseVocabulary(window.COURSE_DATA);
 				delete window.COURSE_DATA;
@@ -505,12 +505,12 @@
                 updateDashboard();
             } else {
                 // Cảnh báo nếu thiếu file
-                alert("⚠️ CẢNH BÁO: Đại ca ơi, không tìm thấy file volca.js hoặc file bị lỗi rồi!");
+                alert("⚠️ CẢNH BÁO: Đại ca ơi, không tìm thấy file vocab.js hoặc file bị lỗi rồi!");
                 const tbody = document.getElementById('vocab-table-body');
                 if (tbody) {
                     tbody.innerHTML = `<tr><td colspan="4" class="text-center" style="color: red; font-weight: bold; padding: 20px;">
-                        ❌ KHÔNG TẢI ĐƯỢC DỮ LIỆU TỪ volca.js <br>
-                        Đại ca kiểm tra lại xem đã tạo file volca.js cùng thư mục chưa nhé!
+                        ❌ KHÔNG TẢI ĐƯỢC DỮ LIỆU TỪ vocab.js <br>
+                        Đại ca kiểm tra lại xem đã tạo file vocab.js cùng thư mục chưa nhé!
                     </td></tr>`;
                 }
             }
