@@ -625,7 +625,7 @@ window.COURSE_DATA = (function() {
 | 621 | confirm | xác nhận, chứng thực |
 | 622 | conflict | xung đột, va chạm, sự xung đột, sự va chạm |
 | 623 | confront | đối mặt, đối diện, đối chiếu |
-| 624 | confuse | làm lộn xộn, xáo trộn |
+| 624 | confuse | làm cho rối/nhầm lẫn |
 | 625 | confused | bối rối, lúng túng, ngượng |
 | 626 | confusing | khó hiểu, gây bối rối |
 | 627 | confusion | sự lộn xộn, sự rối loạn |
