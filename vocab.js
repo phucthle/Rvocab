@@ -2877,7 +2877,7 @@ window.COURSE_DATA = (function() {
 | 2873 | swear | chửi rủa, nguyền rủa, thề, hứa |
 | 2874 | swearing | lời thề, lời nguyền rủa, lời thề hứa |
 | 2875 | sweat | mồ hôi, đổ mồ hôi |
-| 2876 | sweater | người ra mồ hôi,, kẻ bóc lột lấo động |
+| 2876 | sweater | áo len |
 | 2877 | sweep | quét |
 | 2878 | sweet | ngọt, có vị ngọt, sự ngọt bùi, đồ ngọt |
 | 2879 | swell | phồng, sưng lên |
